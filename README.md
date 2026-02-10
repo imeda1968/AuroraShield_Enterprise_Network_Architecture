@@ -22,19 +22,20 @@ A key objective of this project is **serverless enterprise operations** — the 
 ## Architecture Diagrams
 
 ### High Level Architecture
-![High Level](diagrams/high_level_architecture.png)
+![High Level](diagrams/High_Level_Architecture.png)
 
 ### Security Zoning
-![Security](diagrams/security_zoning_layout.png)
+![Security](diagrams/Security_Zoning_Layout.png)
 
 ### VLAN Segmentation
-![VLAN](diagrams/vlan_segmentation_map.png)
+![VLAN](diagrams/VLAN_Segmentation_Map.png)
 
 ### OSPF Routing Flow
-![OSPF](diagrams/ospf_routing_flow.png)
+![OSPF](diagrams/OSPF_Routing_Flow.png)
 
 ### Management Isolation
-![Mgmt](diagrams/management_plane_isolation.png)
+![Mgmt](diagrams/Management_Plane_Isolation.png)
+
 
 
 ## Repository Contents
