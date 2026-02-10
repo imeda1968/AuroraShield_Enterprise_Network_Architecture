@@ -19,6 +19,23 @@ A key objective of this project is **serverless enterprise operations** — the 
 - **Operational model:** Serverless approach (no Windows Server dependency)
 
 ---
+## Architecture Diagrams
+
+### High Level Architecture
+![High Level](diagrams/high_level_architecture.png)
+
+### Security Zoning
+![Security](diagrams/security_zoning_layout.png)
+
+### VLAN Segmentation
+![VLAN](diagrams/vlan_segmentation_map.png)
+
+### OSPF Routing Flow
+![OSPF](diagrams/ospf_routing_flow.png)
+
+### Management Isolation
+![Mgmt](diagrams/management_plane_isolation.png)
+
 
 ## Repository Contents
 
