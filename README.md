@@ -1,5 +1,10 @@
 # AuroraShield Enterprise Network Architecture
 
+![Cisco](https://img.shields.io/badge/Cisco-Networking-blue)
+![OSPF](https://img.shields.io/badge/Routing-OSPF-green)
+![Security](https://img.shields.io/badge/Security-Hardened-red)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
 Enterprise-grade Cisco network architecture demonstrating secure segmentation, deterministic routing, and infrastructure observability aligned with modern enterprise deployment practices.
 
 ---
@@ -21,6 +26,14 @@ This project demonstrates applied networking engineering expertise through imple
 This repository serves as a professional portfolio demonstration and technical reference implementation.
 
 ---
+## Topology Summary
+Dual-distribution hierarchical enterprise topology featuring:
+
+- Redundant Layer-3 Core
+- Segmented VLAN security domains
+- OSPF dynamic routing
+- Management plane isolation
+- Hardened device access controls
 
 ## Architecture Goals
 
