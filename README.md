@@ -1,63 +1,131 @@
 # AuroraShield Enterprise Network Architecture
 
-**Author:** Imeda Sheriphadze  
-**Role:** Enterprise Network Architect | IT & Software Specialist  
-
-AuroraShield is a Cisco-based enterprise network architecture designed to demonstrate real-world routing, segmentation, and security controls in a multi-layer topology.
-
-A key objective of this project is **serverless enterprise operations** — the network is designed to operate **without Windows Server dependency**, relying on Cisco-native features and protocol-driven telemetry.
+Enterprise-grade Cisco network architecture demonstrating secure segmentation, deterministic routing, and infrastructure observability aligned with modern enterprise deployment practices.
 
 ---
 
-## Highlights
+## Author
 
-- **Hierarchical architecture:** Core / Distribution / Access
-- **Routing:** OSPF backbone (Area 0) with secure design principles
-- **Segmentation:** VLAN-based isolation for departments and services
-- **Security controls:** Control Plane Protection (CoPP), AAA, SSH hardening
-- **Monitoring & visibility:** SNMPv3, Syslog, NetFlow readiness
-- **Operational model:** Serverless approach (no Windows Server dependency)
+**Imeda Sheriphadze**
+Enterprise Network Architect
+IT & Software Specialist
 
 ---
+
+## Project Overview
+
+AuroraShield Enterprise Network Architecture is a comprehensive multi-layer Cisco-based network design built to reflect real-world enterprise infrastructure deployment models.
+
+This project demonstrates applied networking engineering expertise through implementation of hierarchical topology design, secure segmentation, routing governance, and management plane isolation. The architecture leverages native Cisco capabilities to maintain deterministic control, reduce external dependency, and minimize attack surface exposure.
+
+This repository serves as a professional portfolio demonstration and technical reference implementation.
+
+---
+
+## Architecture Goals
+
+* High availability and resilience
+* Segmentation-driven security enforcement
+* Deterministic routing behavior
+* Infrastructure observability and monitoring
+* Secure administrative access governance
+* Vendor-native control without external dependency
+
+---
+
+## Key Architecture Highlights
+
+* Hierarchical Core / Distribution / Access topology
+* OSPF backbone routing with authentication
+* VLAN segmentation and gateway isolation
+* Layer-2 attack mitigation mechanisms
+* Control Plane Protection (CoPP)
+* SNMPv3 monitoring
+* NetFlow telemetry visibility
+* AAA-secured administrative access
+* Management plane isolation
+
+---
+
 ## Architecture Diagrams
 
 ### High Level Architecture
-![High Level](diagrams/High_Level_Architecture.png)
+
+![High Level Architecture](diagrams/High_Level_Architecture.png)
+
+---
 
 ### Security Zoning
-![Security](diagrams/Security_Zoning_Layout.png)
+
+![Security Zoning](diagrams/Security_Zoning_Layout.png)
+
+---
 
 ### VLAN Segmentation
-![VLAN](diagrams/VLAN_Segmentation_Map.png)
+
+![VLAN Segmentation](diagrams/VLAN_Segmentation_Map.png)
+
+---
 
 ### OSPF Routing Flow
-![OSPF](diagrams/OSPF_Routing_Flow.png)
+
+![OSPF Routing Flow](diagrams/OSPF_Routing_Flow.png)
+
+---
 
 ### Management Isolation
-![Mgmt](diagrams/Management_Plane_Isolation.png)
 
+![Management Isolation](diagrams/Management_Plane_Isolation.png)
 
+---
 
-## Repository Contents
+## Repository Structure
 
-- `docs/` — Technical documentation + motivation letter  
-- `presentation/` — Professional slide deck  
-- `diagrams/` — Architecture illustrations and topology references  
-- `configs/` — Configuration references (PDF export)  
-- `credentials/` — Certificates & diploma  
-- `cv/` — CV in English
+| Folder           | Description                       |
+| ---------------- | --------------------------------- |
+| `configs/`       | Device configuration files        |
+| `diagrams/`      | Architecture visual documentation |
+| `documentation/` | Technical design documentation    |
+| `presentation/`  | Project presentation materials    |
+| `motivation/`    | Professional submission material  |
+| `archive/`       | Historical and backup resources   |
+
+---
+
+## Implementation Environment
+
+* Cisco IOS / IOSvL2 simulation
+* EVE-NG virtualization platform
+* Enterprise VLAN segmentation model
+* Multi-layer routing topology
+* Secure remote management architecture
 
 ---
 
 ## How This Project Was Built
 
-- Designed and validated in a lab/simulation environment
-- Focused on enterprise-grade structure, security, and clarity of documentation
+The architecture was designed using enterprise methodology emphasizing scalability, security, and observability. Configuration and validation were performed through iterative simulation cycles to ensure deterministic behavior across routing domains and segmentation boundaries.
+
+Validation included:
+
+* Routing convergence verification
+* Access control enforcement checks
+* Segmentation boundary testing
+* Administrative isolation validation
+* Traffic visibility inspection
+
+---
+
+## Professional Objective
+
+This project demonstrates applied enterprise networking capability and architectural design discipline. It showcases readiness for collaboration within professional networking environments and contribution to large-scale infrastructure initiatives.
 
 ---
 
 ## Contact
 
-**Imeda Sheriphadze**  
-Email: isheriphadze@gmail.com  
-Phone: +995 555 45 92 70
+**Imeda Sheriphadze**
+Email: [isheriphadze@gmail.com](mailto:isheriphadze@gmail.com)
+GitHub: [https://github.com/imeda1968](https://github.com/imeda1968)
+
+---
