@@ -63,6 +63,9 @@ Dual-distribution hierarchical enterprise topology featuring:
 ## Architecture Diagrams
 
 ### High Level Architecture
+Core–Distribution–Access hierarchical design overview
+
+![High Level](diagrams/High_Level_Architecture.png)
 
 ![High Level Architecture](diagrams/High_Level_Architecture.png)
 
